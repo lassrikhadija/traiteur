@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://traiteur.nextiwebstudio.ca/sitemap.xml
