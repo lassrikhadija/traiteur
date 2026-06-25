@@ -19,6 +19,7 @@ AddDefaultCharset UTF-8
 
 # En-têtes de sécurité
 <IfModule mod_headers.c>
+  Header always unset X-Frame-Options
   Header set X-Content-Type-Options "nosniff"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
   Header always set Content-Security-Policy "frame-ancestors 'self' https://nextiwebstudio.ca https://*.nextiwebstudio.ca"
